@@ -1,37 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
+import TopNav from "./components/TopNav/TopNav";
 
 function App() {
   return (
     <div className=" ">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-      <div id="topbar" class="fixed-top d-flex align-items-center bg-primary">
-        <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
-          <div class="contact-info d-flex align-items-center">
-            <i class="bi bi-envelope-fill"></i>
-            <a href="mailto:contact@example.com">info@example.com</a>
-            <i class="bi bi-phone-fill phone-icon"></i> +1 5589 55488 55
-          </div>
-          <div class="cta d-none d-md-block">
-            <a href="#about" class="scrollto">
-              Get Started
-            </a>
-          </div>
-        </div>
-      </div>
+      <TopNav></TopNav>
+     
 
       <header
         id="header"
