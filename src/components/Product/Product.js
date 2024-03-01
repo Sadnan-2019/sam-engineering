@@ -15,14 +15,14 @@ const Product = () => {
             </p>
           </div>
 
-          <button
+          {/* <button
             type="button"
             class="btn btn-primary"
             data-toggle="modal"
             data-target="#exampleModal"
           >
-            Open Modal
-          </button>
+            View Details
+          </button> */}
 
           {/* <!-- Modal --> */}
           <div
@@ -37,7 +37,7 @@ const Product = () => {
               <div class="modal-content">
                 <div class="modal-header">
                   <h5 class="modal-title" id="exampleModalLabel">
-                    Modal Title
+                    Walter White
                   </h5>
                   <button
                     type="button"
@@ -49,7 +49,13 @@ const Product = () => {
                   </button>
                 </div>
                 <div class="modal-body">
-                  <p>Modal body text goes here.</p>
+                  <div class="pic">
+                    <img
+                      src="assets/img/team/team-1.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
                 </div>
                 <div class="modal-footer">
                   <button
@@ -83,19 +89,14 @@ const Product = () => {
                     Explicabo voluptatem mollitia et repellat qui dolorum quasi
                   </p>
                   <div class="social">
-                    <a href="">
-                      <i class="ri-twitter-fill"></i>
-                    </a>
-                    <a href="">
-                      <i class="ri-facebook-fill"></i>
-                    </a>
-                    <a href="">
-                      <i class="ri-instagram-fill"></i>
-                    </a>
-                    <a href="">
-                      {" "}
-                      <i class="ri-linkedin-box-fill"></i>{" "}
-                    </a>
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-toggle="modal"
+                      data-target="#exampleModal"
+                    >
+                      View Details
+                    </button>
                   </div>
                 </div>
               </div>
@@ -122,19 +123,14 @@ const Product = () => {
                     para
                   </p>
                   <div class="social">
-                    <a href="">
-                      <i class="ri-twitter-fill"></i>
-                    </a>
-                    <a href="">
-                      <i class="ri-facebook-fill"></i>
-                    </a>
-                    <a href="">
-                      <i class="ri-instagram-fill"></i>
-                    </a>
-                    <a href="">
-                      {" "}
-                      <i class="ri-linkedin-box-fill"></i>{" "}
-                    </a>
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-toggle="modal"
+                      data-target="#exampleModal"
+                    >
+                      View Details
+                    </button>
                   </div>
                 </div>
               </div>
