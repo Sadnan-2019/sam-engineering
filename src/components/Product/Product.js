@@ -37,7 +37,7 @@ const Product = () => {
                   />
                 </div>
                 <div class="member-info">
-                  <h4>Walter White</h4>
+                  <h4>Product 1</h4>
 
                   <div class="social">
                     <button
@@ -86,15 +86,12 @@ const Product = () => {
                     </div>
                   </div>
                   <div class="modal-footer">
-                    <button
+                  <button
                       type="button"
                       class="btn btn-secondary"
                       data-dismiss="modal"
                     >
                       Close
-                    </button>
-                    <button type="button" class="btn btn-primary">
-                      Save changes
                     </button>
                   </div>
                 </div>
@@ -168,15 +165,12 @@ const Product = () => {
                     </div>
                   </div>
                   <div class="modal-footer">
-                    <button
+                  <button
                       type="button"
                       class="btn btn-secondary"
                       data-dismiss="modal"
                     >
                       Close
-                    </button>
-                    <button type="button" class="btn btn-primary">
-                      Save changes
                     </button>
                   </div>
                 </div>
@@ -197,7 +191,7 @@ const Product = () => {
                   />
                 </div>
                 <div class="member-info">
-                  <h4>William Anderson</h4>
+                  <h4>Product 3</h4>
 
                   <div class="social">
                     <button
@@ -245,15 +239,12 @@ const Product = () => {
                     </div>
                   </div>
                   <div class="modal-footer">
-                    <button
+                  <button
                       type="button"
                       class="btn btn-secondary"
                       data-dismiss="modal"
                     >
                       Close
-                    </button>
-                    <button type="button" class="btn btn-primary">
-                      Save changes
                     </button>
                   </div>
                 </div>
@@ -273,7 +264,7 @@ const Product = () => {
                   />
                 </div>
                 <div class="member-info">
-                  <h4>Amanda Jepson</h4>
+                  <h4>Product 4</h4>
 
                   <div class="social">
                     <button
@@ -327,9 +318,6 @@ const Product = () => {
                       data-dismiss="modal"
                     >
                       Close
-                    </button>
-                    <button type="button" class="btn btn-primary">
-                      Save changes
                     </button>
                   </div>
                 </div>
