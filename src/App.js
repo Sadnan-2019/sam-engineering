@@ -7,6 +7,7 @@ import Services from "./components/Services/Services";
 import Product from "./components/Product/Product";
 import Contact from "./components/Contact/Contact";
 import Nav from "./components/Nav/Nav";
+import Partner from "./components/Partner/Partner";
 
 function App() {
   return (
@@ -21,9 +22,10 @@ function App() {
 
       <main id="main">
         <About></About>
-
-        <Services></Services>
         <Product></Product>
+        <Services></Services>
+        <Partner></Partner>
+        
 
         <Contact></Contact>
       </main>
