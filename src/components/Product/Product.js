@@ -327,6 +327,16 @@ const Product = () => {
             {/* {modal 4 product 4} */}
           </div>
         </div>
+        <div class="social  ">
+                    <button
+                      type="button"
+                      class="btn btn-primary rounded mx-auto d-block mt-5"
+                      data-toggle="modal"
+                      data-target=""
+                    >
+                      All Product
+                    </button>
+                  </div>  
       </section>
     </div>
   );

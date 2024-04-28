@@ -1,18 +1,14 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 import partner1 from "../../assets/galay.png";
+import partner2 from "../../assets/hcah.png";
 const Partner = () => {
   return (
     <div>
       <div className="container ">
         <div class="section-title">
           <h2>Our Partner</h2>
-          <p>
-            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
-            aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
-            quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-            fugiat sit in iste officiis commodi quidem hic quas.
-          </p>
+         
         </div>
       </div>
       <Marquee>
@@ -35,12 +31,12 @@ const Partner = () => {
                       <img
                         loading="lazy"
                         src={partner1}
-                        class="img-fluid"
+                        class="img-fluid w-75"
                         alt=""
                       />
                     </div>
                     <div class="client-meta">
-                      <h3>William Martin</h3>
+                      <h5>William Martin</h5>
                     </div>
                   </div>
                 </div>
@@ -60,13 +56,13 @@ const Partner = () => {
                     <div class="client-thumb">
                       <img
                         loading="lazy"
-                        src={partner1}
-                        class="img-fluid"
+                        src={partner2}
+                        class="img-fluid w-50 "
                         alt=""
                       />
                     </div>
                     <div class="client-meta">
-                      <h3>William Martin</h3>
+                      <h5>William Martin</h5>
                     </div>
                   </div>
                 </div>
