@@ -1,92 +1,82 @@
-import React from 'react';
+import React from "react";
 import Marquee from "react-fast-marquee";
+import partner1 from "../../assets/galay.png";
 const Partner = () => {
-     return (
-          <div>
-             <Marquee>
-   <section id="icon-boxes" class="icon-boxes">
+  return (
+    <div>
+      <div className="container ">
+        <div class="section-title">
+          <h2>Our Partner</h2>
+          <p>
+            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
+            aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
+            quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+            fugiat sit in iste officiis commodi quidem hic quas.
+          </p>
+        </div>
+      </div>
+      <Marquee>
+        <section id="icon-boxes" class="icon-boxes">
           <div class="container">
             <div class="row">
               <div
                 class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
                 data-aos="fade-up"
               >
-                <div class="icon-box">
-                  <div class="icon">
-                    <i class="bx bxl-dribbble"></i>
+                <div class="testimonial-slider">
+                  {/* <!-- testimonial single --> */}
+                  <div class="item text-center">
+                    <i class="tf-ion-chatbubbles"></i>
+                    {/* <!-- client info --> */}
+
+                    {/* <!-- /client info -->
+							<!-- client photo --> */}
+                    <div class="client-thumb">
+                      <img
+                        loading="lazy"
+                        src={partner1}
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <div class="client-meta">
+                      <h3>William Martin</h3>
+                    </div>
                   </div>
-                  <h4 class="title">
-                    <a href="">Lorem Ipsum</a>
-                  </h4>
-                  <p class="description">
-                    Voluptatum deleniti atque corrupti quos dolores et quas
-                    molestias excepturi sint occaecati cupiditate non provident
-                  </p>
                 </div>
               </div>
-
               <div
                 class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
                 data-aos="fade-up"
-                data-aos-delay="100"
               >
-                <div class="icon-box">
-                  <div class="icon">
-                    <i class="bx bx-file"></i>
-                  </div>
-                  <h4 class="title">
-                    <a href="">Sed ut perspiciatis</a>
-                  </h4>
-                  <p class="description">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur
-                  </p>
-                </div>
-              </div>
+                <div class="testimonial-slider">
+                  {/* <!-- testimonial single --> */}
+                  <div class="item text-center">
+                    <i class="tf-ion-chatbubbles"></i>
+                    {/* <!-- client info --> */}
 
-              <div
-                class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                <div class="icon-box">
-                  <div class="icon">
-                    <i class="bx bx-tachometer"></i>
+                    {/* <!-- /client info -->
+							<!-- client photo --> */}
+                    <div class="client-thumb">
+                      <img
+                        loading="lazy"
+                        src={partner1}
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <div class="client-meta">
+                      <h3>William Martin</h3>
+                    </div>
                   </div>
-                  <h4 class="title">
-                    <a href="">Magni Dolores</a>
-                  </h4>
-                  <p class="description">
-                    Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum
-                  </p>
-                </div>
-              </div>
-
-              <div
-                class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <div class="icon-box">
-                  <div class="icon">
-                    <i class="bx bx-layer"></i>
-                  </div>
-                  <h4 class="title">
-                    <a href="">Nemo Enim</a>
-                  </h4>
-                  <p class="description">
-                    At vero eos et accusamus et iusto odio dignissimos ducimus
-                    qui blanditiis praesentium voluptatum deleniti atque
-                  </p>
                 </div>
               </div>
             </div>
           </div>
         </section>
-</Marquee>  
-          </div>
-     );
+      </Marquee>
+    </div>
+  );
 };
 
 export default Partner;
