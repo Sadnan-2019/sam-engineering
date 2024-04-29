@@ -14,3 +14,9 @@
      border: 0;
      border-radius: 0;
    }
+
+   .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+    grid-gap: 20px; /* Gap between grid items */
+  }
