@@ -3,6 +3,7 @@ import "./Product.css";
 import ProductDetails from "./ProductDetails";
 const Product = () => {
   const [services, setServices] = useState([]);
+  const datas =services.slice(0,3);
   useEffect(() => {
     fetch(`product.json`)
       .then((res) => res.json())
@@ -26,7 +27,7 @@ const Product = () => {
         
            <div className=" row     ">
           
-         {services.map((service,) => (
+         {datas.map((service,) => (
               <ProductDetails
                 key={service.id}
                 service={service}
