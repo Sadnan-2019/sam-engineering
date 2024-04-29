@@ -26,7 +26,7 @@ const Product = () => {
         
            <div className=" row     ">
           
-         {services.map((service) => (
+         {services.map((service,) => (
               <ProductDetails
                 key={service.id}
                 service={service}
