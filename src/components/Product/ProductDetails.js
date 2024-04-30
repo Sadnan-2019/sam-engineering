@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router';
 
 const ProductDetails = (props) => {
-     const {id,name,img,description,price} = props.product;
+     const {id,name,img } = props.product;
 
      const navigate= useNavigate()
 
@@ -18,7 +18,7 @@ const ProductDetails = (props) => {
                       <img src={img} className="card-img-top img-fluid p-4" alt="..."/>
                       <div className="card-body bg-dark text-light">
                         <h5 className="card-title">{name}</h5>
-                        <p>Price:${price}</p>
+               
                         {/* <p className="card-text">{description}</p> */}
                       </div>
                       <div className="card-footer">

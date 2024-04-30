@@ -2,16 +2,16 @@ import React from 'react';
 
 const AllProductDetails = ({allproduct}) => {
 
-     const {name,img,description,price} = allproduct;
+     const {name,img} = allproduct;
      return (
-          <div>
-               <div className=' col-md-6 col-lg-4 g-4'>
+          
+               <div className=' col-md-6 col-lg-4 g-4 mt-5  ' id="product" >
              
-             <div className="card    text-light">
+             <div className="card    text-light mt-5   ">
                <img src={img} className="card-img-top img-fluid p-4" alt="..."/>
                <div className="card-body bg-dark text-light">
                  <h5 className="card-title">{name}</h5>
-                 <p>Price:${price}</p>
+                 {/* <p>Price:${price}</p> */}
                  {/* <p className="card-text">{description}</p> */}
                </div>
                <div className="card-footer">
@@ -21,7 +21,7 @@ const AllProductDetails = ({allproduct}) => {
              </div>
             
    </div>
-          </div>
+           
      );
 };
 

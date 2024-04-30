@@ -7,7 +7,8 @@ const AllProduct = () => {
      const [allproducts,setProduct] = useProducts();
           
      return (
-          <div>
+          <div className='container'>
+               <div className='row '>
                   {
                                         allproducts.map(allproduct=>
                                         <AllProductDetails 
@@ -18,6 +19,7 @@ const AllProduct = () => {
 
                                         </AllProductDetails>)
                               } 
+          </div>
           </div>
      );
 };

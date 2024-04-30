@@ -25,7 +25,7 @@ function App() {
 
      
 
-      <main id="main">
+     
     
         <Routes>
         <Route path="/" element={<Home/>} />
@@ -37,8 +37,8 @@ function App() {
         </Routes>
        
 
-        <Contact></Contact>
-      </main>
+        {/* <Contact></Contact> */}
+     
     </div>
   );
 }
