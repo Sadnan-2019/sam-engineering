@@ -1,14 +1,21 @@
 import React, { useEffect, useState } from "react";
-import "./Product.css";
 import ProductDetails from "./ProductDetails";
+import { Link, useNavigate } from "react-router-dom";
+
+import "./Product.css";
+import useProducts from "../../hooks/useProducts";
 const Product = () => {
-  const [services, setServices] = useState([]);
-  const datas =services.slice(0,3);
-  useEffect(() => {
-    fetch(`product.json`)
-      .then((res) => res.json())
-      .then((data) => setServices(data));
-  }, []);
+  const [reviews,setProduct] = useProducts();
+  const datas =reviews.slice(0,3);
+  
+ 
+  let navigate = useNavigate();
+
+  const allProduct = () => {
+    const path = `/allproduct`;
+    navigate(path);
+  };
+ 
   return (
     <div>
       <section id="product" class="team section-bg">
@@ -27,10 +34,10 @@ const Product = () => {
         
            <div className=" row     ">
           
-         {datas.map((service,) => (
+         {datas.map((product,) => (
               <ProductDetails
-                key={service.id}
-                service={service}
+                key={product.id}
+                product={product}
               ></ProductDetails>
             ))}
        
@@ -42,10 +49,10 @@ const Product = () => {
         </div>
         <div class="social  ">
           <button
+        
             type="button"
             class="btn btn-primary rounded mx-auto d-block mt-5"
-            data-toggle="modal"
-            data-target=""
+            onClick={allProduct}
           >
             All Product
           </button>

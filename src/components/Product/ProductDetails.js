@@ -1,7 +1,16 @@
 import React from 'react';
+import { useNavigate } from 'react-router';
 
-const ProductDetails = ({service}) => {
-     const {id,name,img,description,price} = service;
+const ProductDetails = (props) => {
+     const {name,img,description,price} = props.product;
+
+     const navigate= useNavigate()
+
+     const handleServiceDetails=(id)=>{
+       navigate(`/more-service/${id}`)
+
+
+     }
      return (
           <div className=' col-md-6 col-lg-4 g-4'>
              

@@ -1,4 +1,5 @@
 import React, { memo } from "react";
+import { Link, NavLink } from "react-router-dom/dist";
 
 const Nav = memo(() => {
   return (
@@ -20,9 +21,9 @@ const Nav = memo(() => {
           <nav id="navbar" class="navbar">
             <ul>
               <li>
-                <a class="nav-link scrollto active" href="#hero">
+              <NavLink class=" "  to="/">
                   Home
-                </a>
+                </NavLink>
               </li>
               <li>
                 <a class="nav-link scrollto" href="#about">
@@ -36,10 +37,20 @@ const Nav = memo(() => {
               </li>
 
               <li>
-                <a class="nav-link scrollto" href="#product">
+                <NavLink class=" "  to="/allproduct">
                   Product
-                </a>
+                </NavLink>
               </li>
+              {/* <li className="nav-item p-2">
+            <NavLink onClick={() => setIsOpen(false)}
+              className={({ isActive }) =>
+                isActive ? `${active}` : `${dropnormal}`
+              }
+              to="/sunflower"
+            >
+              Sunflower Residence
+            </NavLink>
+          </li> */}
 
               <li>
                 <a class="nav-link scrollto" href="#contact">

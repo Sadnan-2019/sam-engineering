@@ -8,6 +8,11 @@ import Product from "./components/Product/Product";
 import Contact from "./components/Contact/Contact";
 import Nav from "./components/Nav/Nav";
 import Partner from "./components/Partner/Partner";
+import { Route, Routes } from "react-router";
+import ProductDetails from "./components/Product/ProductDetails";
+import AllProduct from "./components/Product/AllProduct";
+import AllProductDetails from "./components/Product/AllProductDetails";
+import Home from "./components/Home/Home";
 
 function App() {
   return (
@@ -18,14 +23,18 @@ function App() {
 
       <Nav></Nav>
 
-      <Hero></Hero>
+     
 
       <main id="main">
-        <About></About>
-        <Product></Product>
-        <Services></Services>
-        <Partner></Partner>
-        
+    
+        <Routes>
+        <Route path="/" element={<Home/>} />
+ <Route path="/allproduct" element={<AllProduct/>} />
+ 
+ {/* <Route path="/sunflower" element={<Sunflower />}></Route> */}
+ {/* <Route path='/review' element={<Review/>}></Route> */}
+        </Routes>
+       
 
         <Contact></Contact>
       </main>
