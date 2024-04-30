@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router';
 
 const ProductDetails = (props) => {
-     const {name,img,description,price} = props.product;
+     const {id,name,img,description,price} = props.product;
 
      const navigate= useNavigate()
 
