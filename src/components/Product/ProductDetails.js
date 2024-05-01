@@ -7,7 +7,7 @@ const ProductDetails = (props) => {
      const navigate= useNavigate()
 
      const handleServiceDetails=(id)=>{
-       navigate(`/more-service/${id}`)
+       navigate(`/product-details/${id}`)
 
 
      }
@@ -23,7 +23,7 @@ const ProductDetails = (props) => {
                       </div>
                       <div className="card-footer">
                         {/* <small className="text-muted">Last updated 3 mins ago</small> */}
-                        {/* <button className='btn btn-primary' onClick={()=>handleServiceDetails(id)}>Service Details</button> */}
+                        <button className='btn btn-primary' onClick={()=>handleServiceDetails(id)}>Service Details</button>
                       </div>
                     </div>
                    

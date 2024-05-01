@@ -5,12 +5,13 @@ import useProducts from '../../hooks/useProducts';
 const AllProduct = () => {
 
      const [allproducts,setProduct] = useProducts();
+     
           
      return (
           <div className='container'>
                <div className='row '>
                   {
-                                        allproducts.map(allproduct=>
+                                        allproducts.map((allproduct)=>
                                         <AllProductDetails 
                                         key={allproduct.id}
                                         allproduct={allproduct}
