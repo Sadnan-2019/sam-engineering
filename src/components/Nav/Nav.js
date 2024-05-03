@@ -1,7 +1,7 @@
 import React, { memo } from "react";
 import { Link, NavLink } from "react-router-dom/dist";
 
-const Nav = memo(() => {
+const Nav = () => {
   return (
     <div>
       <header
@@ -65,6 +65,6 @@ const Nav = memo(() => {
       </header>
     </div>
   );
-});
+};
 
 export default Nav;

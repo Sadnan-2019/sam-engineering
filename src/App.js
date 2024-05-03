@@ -10,6 +10,7 @@ import AllProduct from "./components/Product/AllProduct";
 
 import Home from "./components/Home/Home";
 import MoreProductDetails from "./components/Product/MoreProductDetails";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
         {/* <Route path="/sunflower" element={<Sunflower />}></Route> */}
         {/* <Route path='/review' element={<Review/>}></Route> */}
       </Routes>
-
+      <ToastContainer></ToastContainer>
       {/* <Contact></Contact> */}
     </div>
   );
