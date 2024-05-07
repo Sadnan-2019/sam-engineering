@@ -7,55 +7,55 @@
 
 [
   {
-    "_id": "663a4a1a39e6daa0f80b71c1",
+    "id": "663a4a1a39e6daa0f80b71c1",
     "img": "https://i.ibb.co/K90fj70/product1.jpg",
     "name": "Allie Dennis",
     "description": "female"
   },
   {
-    "_id": "663a4a1a6632d38984f57908",
+    "id": "663a4a1a6632d38984f57908",
     "img": "https://i.ibb.co/9pXqfJT/product2.jpg",
     "name": "Kidd Holder",
     "description": "male"
   },
   {
-    "_id": "663a4a1a22f68e8580831d0b",
+    "id": "663a4a1a22f68e8580831d0b",
     "img": "https://i.ibb.co/PQZnVCp/product3.jpg",
     "name": "West Nixon",
     "description": "male"
   },
   {
-    "_id": "663a4a1a4e6e80b53ec98101",
+    "id": "663a4a1a4e6e80b53ec98101",
     "img": "https://i.ibb.co/DpspMP6/product4.png",
     "name": "Molly Robles",
     "description": "female"
   },
   {
-    "_id": "663a4a1aac436731fb8bb8c5",
+    "id": "663a4a1aac436731fb8bb8c5",
     "img": "https://i.ibb.co/p1tnJVw/product5.png",
     "name": "Tammie Ferguson",
     "description": "female"
   },
   {
-    "_id": "663a4a1a4efba7cc0f378fd0",
+    "id": "663a4a1a4efba7cc0f378fd0",
     "img": "https://i.ibb.co/mCt4J64/product6.jpg",
     "name": "Ladonna Dudley",
     "description": "female"
   },
   {
-    "_id": "663a4a1aa4fa0e786247c387",
+    "id": "663a4a1aa4fa0e786247c387",
     "img": "https://i.ibb.co/2StrWVC/product7.jpg",
     "name": "Cassie Ayers",
     "description": "female"
   },
   {
-    "_id": "663a4a1a2258a0bc9dd59359",
+    "id": "663a4a1a2258a0bc9dd59359",
     "img": "https://i.ibb.co/gvYf7JQ/product8.png",
     "name": "Heath Sullivan",
     "description": "male"
   },
   {
-    "_id": "663a4a1aa2c0a79fa73612aa",
+    "id": "663a4a1aa2c0a79fa73612aa",
     "img": "https://i.ibb.co/R0C4kxR/product9.png",
     "name": "Austin Johnson",
     "description": "male"
