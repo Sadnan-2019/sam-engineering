@@ -11,20 +11,7 @@ const ProductDetails = (props) => {
   };
   return (
     <div className=" col-md-6 col-lg-4 g-4">
-      {/* <div class="card">
-        <img src={img} className="   " alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">{name}</h5>
-         
-
-          <button
-            className="btn btn-primary buy-now-button"
-            onClick={() => handleServiceDetails(id)}
-          >
-            Service Details
-          </button>
-        </div>
-      </div> */}
+       
       <div className="card-wrapper">
     <div className="card text-light">
         <img src={img} className="card-img-top card-img-custom" alt="..." />
