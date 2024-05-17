@@ -10,6 +10,7 @@ import AllProduct from "./components/Product/AllProduct";
 
 import Home from "./components/Home/Home";
 import MoreProductDetails from "./components/Product/MoreProductDetails";
+import WhatsApp from "./components/WhatsApp/WhatsApp"
 import { ToastContainer } from "react-toastify";
 
 function App() {
@@ -30,6 +31,8 @@ function App() {
         {/* <Route path="/sunflower" element={<Sunflower />}></Route> */}
         {/* <Route path='/review' element={<Review/>}></Route> */}
       </Routes>
+
+      <WhatsApp></WhatsApp>
       <ToastContainer></ToastContainer>
       {/* <Contact></Contact> */}
     </div>

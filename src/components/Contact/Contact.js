@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "react-toastify/dist/ReactToastify.css";
 import { toast } from "react-toastify";
-import WhatsApp from "../WhatsApp/WhatsApp";
+ 
 const Contact = () => {
   const form = useRef();
 
@@ -121,7 +121,7 @@ const Contact = () => {
       
           </div>
         </div>
-        <WhatsApp></WhatsApp>
+        
       </section>
     </div>
   );

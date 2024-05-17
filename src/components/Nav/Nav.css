@@ -1,0 +1,24 @@
+/* Header.css */
+
+.bg-primary {
+     background-color: #007bff !important;
+   }
+   
+   .mobile-nav-toggle {
+     display: none;
+     cursor: pointer;
+   }
+   
+   @media (max-width: 991.98px) {
+     .navbar-nav {
+       flex-direction: column;
+       display: none;
+     }
+     .navbar-nav.d-flex {
+       display: flex !important;
+     }
+     .mobile-nav-toggle {
+       display: block;
+     }
+   }
+   
