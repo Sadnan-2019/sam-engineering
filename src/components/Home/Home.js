@@ -5,12 +5,14 @@ import Partner from '../Partner/Partner';
 import Product from '../Product/Product';
 import Hero from '../Hero/Hero';
 import Contact from '../Contact/Contact';
+import Landing from '../Landing/Landing';
 
 const Home = () => {
      return (
           <div>
             <main id="main">
-            <Hero></Hero>
+            {/* <Hero></Hero> */}
+            <Landing></Landing>
             <About></About>
         <Product></Product>
         <Services></Services>
